@@ -1,0 +1,116 @@
+/* global rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-color: #e0e8ff;
+}
+
+/* end global rules */
+/* start variables */
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+/* end variables */
+.bg {
+  position: absolute;
+  z-index: -1;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-img {
+  border-radius: 10px 10px 0 0;
+}
+.card {
+  width: 450px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.content {
+  padding: 0 2rem 2rem;
+}
+h1 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-weight: 900;
+  margin: 2rem 0 1.25rem
+}
+.heading-desc {
+  color: var(--Desaturated-blue);
+  max-width: 320px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5  ;
+}
+.subs {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 2rem;
+  background-color: var(--Very-pale-blue);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
+.subs .text {
+  flex: 1;
+  padding-left: 1rem;
+}
+.subs .text h2 {
+  color: var(--Dark-blue);
+  text-transform: capitalize;
+  margin-bottom: .25rem;
+  font-size: 1em;
+  font-weight: 900;
+}
+.subs .text p {
+  color: var(--Desaturated-blue);
+}
+.subs a {
+  color: var(--Bright-blue);
+  font-weight: 700;
+}
+.subs a:hover {
+  opacity: .8;
+  text-decoration: none;
+}
+input {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  background-color: var(--Bright-blue);
+  padding: 1rem;
+  font-size: 1.1em;
+  color: var(--Very-pale-blue);
+  box-shadow: 0 10px 40px -10px var(--Bright-blue);
+}
+input:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+.cancel {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--Desaturated-blue);
+}
+.cancel:hover {
+  cursor: pointer;
+  color: var(--Dark-blue);
+}
