@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://zyadfallatah.github.io/frontend-mentor-challenge-1/)
+- Live Site URL: [click here to see live site](https://zyadfallatah.github.io/frontend-mentor-challenge-1/)
 
 
 ### Built with
@@ -64,7 +64,7 @@ It's just a recap and i didn't need any resource to biuld it but i learn css fro
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [zyadfallatah](https://zyadfallatah.github.io/frontend-mentor-challenge-1/)
 - Frontend Mentor - [@zyadfallatah](https://www.frontendmentor.io/profile/zyadfallatah)
 
 
