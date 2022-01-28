@@ -48,7 +48,7 @@ body {
 .content {
   padding: 0 4rem 2rem;
 }
-h1 {
+.title {
   font-size: 1.5rem;
   color: var(--Dark-blue);
   text-align: center;
@@ -128,7 +128,7 @@ input:hover {
   .content{
     padding: 0 20px 2rem;
   }
-  h1 {
+  .title {
     font-size: 1.5em;
   }
   .subs {
